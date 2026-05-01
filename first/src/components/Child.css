@@ -1,0 +1,12 @@
+.box{
+    background: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 500px;
+    height: 600px;
+}
