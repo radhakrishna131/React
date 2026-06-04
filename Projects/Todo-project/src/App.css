@@ -1,0 +1,53 @@
+.inputField{
+  display: flex;
+  gap: 5px;
+  margin: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+.inputField input{
+  border: none;
+  border-bottom: 1px solid black;
+  color: grey;
+  height: 40px;
+}
+.inputField button{
+  width: 40px;
+  height: 40px;
+  background: black;
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 10%;
+}
+.container{
+  border: 1px solid black;
+  border-radius: 16px;
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.actions{
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.actions button{
+  border-radius: 10%;
+  padding: 12px 8px;
+}
+.finish{
+  background: black;
+  color: white;
+}
+.del{
+  background: red;
+  color: white;
+}
+.finished{
+  text-decoration: line-through;
+}
