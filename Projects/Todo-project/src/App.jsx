@@ -22,7 +22,9 @@ const App = () => {
   }
   return (
     <>
-      <h1>Todo Website</h1>
+      <div className="heading">
+        <h1>Todo Website</h1>
+      </div>
       <Inputcontainer inValue={value} write={writeTodo} add={addTodo}/>
       <Todocontainer Todos={todo} deleteTodo={deleteTodo}/>
     </>
